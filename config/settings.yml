@@ -1,0 +1,79 @@
+model:
+  params_length:
+    project:
+      term_id:
+        min: 3
+        max: 60
+      name:
+        min: 1
+        max: 50
+      kana:
+        min: 1
+        max: 150
+      description:
+        min: 0
+        max: 1000
+
+    user:
+      name:
+        max: 140
+        min: 3
+      nickname:
+        max: 80
+        min: 0
+      password:
+        max: 150
+        min: 10
+
+    category:
+      term_id:
+        max: 60
+        min: 3
+      name:
+        max: 140
+        min: 1
+      kana:
+        max: 280
+        min: 0
+      synopsis:
+        max: 500
+        min: 0
+      body:
+        max: 100000
+        min: 0
+
+    custom_folder:
+      term_id:
+        max: 60
+        min: 3
+      name:
+        max: 140
+        min: 1
+
+    post:
+      term_id:
+        max: 60
+        min: 3
+      name:
+        max: 140
+        min: 1
+      kana:
+        max: 280
+        min: 0
+      synopsis:
+        max: 540
+        min: 0
+      body:
+        max: 100000
+        min: 0
+
+    attribute:
+      group_name:
+        max: 60
+        min: 3
+      string:
+        max: 540
+        min: 0
+      text:
+        max: 100000
+        min: 0
